@@ -184,9 +184,9 @@ class WZMLStyle:
     BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠ <b>CPU:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>RAM:</b> {ram}% | '
+    Ram = '\n┠ <b>ʀᴀᴍ:</b> {ram}% | '
     uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
+    DL = '\n┖ <b>ᴅʟ:</b> {DL}/s | '
     UL =                        '<b>UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
@@ -196,72 +196,72 @@ class WZMLStyle:
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
-    STOP_DUPLICATE = 'File/Folder is already available in Drive.\nHere are {content} list results:'
+    STOP_DUPLICATE = 'ғɪʟᴇ/ғᴏʟᴅᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅʀɪᴠᴇ.\nʜᴇʀᴇ ᴀʀᴇ {content} ʟɪsᴛ ʀᴇsᴜʟᴛs:'
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
+    COUNT_MSG = '<b>ᴄᴏᴜɴᴛɪɴɢ:</b> <code>{LINK}</code>'
     COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_SIZE = '┠ <b>sɪᴢᴇ: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠ <b>ᴛʏᴘᴇ: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠ <b>sᴜʙғᴏʟᴅᴇʀs: </b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠ <b>ғɪʟᴇs: </b>{COUNT_FILE}\n'
+    COUNT_CC =   '┖ <b>ʙʏ: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '<b>Searching for <i>{NAME}</i></b>'
-    LIST_FOUND = '<b>Found {NO} result for <i>{NAME}</i></b>'
-    LIST_NOT_FOUND = 'No result found for <i>{NAME}</i>'
+    LIST_SEARCHING = '<b>sᴇᴀʀᴄʜɪɴɢ ғᴏʀ <i>{NAME}</i></b>'
+    LIST_FOUND = '<b>ғᴏᴜɴᴅ {NO} ʀᴇsᴜʟᴛ ғᴏʀ <i>{NAME}</i></b>'
+    LIST_NOT_FOUND = 'ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ғᴏʀ <i>{NAME}</i>'
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''<i>ɴᴏ ᴀᴄᴛɪᴠᴇ ᴅᴏᴡɴʟᴏᴀᴅs!</i>
     
-⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>
+┠ <b>ᴄᴘᴜ:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
+┖ <b>ʀᴀᴍ:</b> {ram} | <b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
+    USER_SETTING = '''㊂ <b><u>ᴜsᴇʀ sᴇᴛᴛɪɴɢs :</u></b>
         
-┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
-┠<b> Username :</b> {USERNAME}
-┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}'''
+┎<b> ɴᴀᴍᴇ :</b> {NAME} ( <code>{ID}</code> )
+┠<b> ᴜsᴇʀɴᴀᴍᴇ :</b> {USERNAME}
+┠<b> ᴛᴇʟᴇɢʀᴀᴍ ᴅᴄ :</b> {DC}
+┖<b> ʟᴀɴɢᴜᴀɢᴇ :</b> {LANG}'''
 
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''㊂ <b><u>ᴜɴɪᴠᴇʀsᴀʟ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b> Daily Tasks :</b> <code>{DT}</code> per day
-┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┎<b> ʏᴛ-ᴅʟᴘ ᴏᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
+┠<b> ᴅᴀɪʟʏ ᴛᴀsᴋs :</b> <code>{DT}</code> per day
+┠<b> ʟᴀsᴛ ʙᴏᴛ ᴜsᴇᴅ :</b> <code>{LAST_USED}</code>
+┠<b> ᴍᴇᴅɪᴀɪɴғᴏ ᴍᴏᴅᴇ :</b> <code>{MEDIAINFO}</code>
+┠<b> sᴀᴠᴇ ᴍᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
+┖<b>ᴜsᴇʀ ʙᴏᴛ ᴘᴍ:</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''㊂ <b><u>ᴍɪʀʀᴏʀ/ᴄʟᴏɴᴇ sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
-┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┎<b> ʀᴄʟᴏɴᴇ ᴄᴏɴғɪɢ :</b> <i>{RCLONE}</i>
+┠<b> ᴍɪʀʀᴏʀ ᴘʀᴇғɪx :</b> <code>{MPREFIX}</code>
+┠<b> ᴍɪʀʀᴏʀ sᴜғғɪx :</b> <code>{MSUFFIX}</code>
+┠<b> ᴍɪʀʀᴏʀ ʀᴇᴍɴᴀᴍᴇ :</b> <code>{MREMNAME}</code>
+┠<b> ᴅᴅʟ sᴇʀᴠᴇʀ(s) :</b> <i>{DDL_SERVER}</i>
+┠<b> ᴜsᴇʀ ᴛᴅ ᴍᴏᴅᴇ :</b> <i>{TMODE}</i>
+┠<b> ᴛᴏᴛᴀʟ ᴜsᴇʀ ᴛᴅ(s) :</b> <i>{USERTD}</i>
+┖<b> ᴅᴀɪʟʏ ᴍɪʀʀᴏʀ :</b> <code>{DM}</code> ᴘᴇʀ ᴅᴀʏ'''
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''㊂ <b><u>ʟᴇᴇᴄʜ sᴇᴛᴛɪɴɢs ғᴏʀ {NAME}</u></b>
 
-┎<b> Daily Leech : </b><code>{DL}</code> per day
-┠<b> Leech Type :</b> <i>{LTYPE}</i>
-┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
-┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┎<b> ᴅᴀɪʟʏ ʟᴇᴇᴄʜ : </b><code>{DL}</code> ᴘᴇʀ ᴅᴀʏ
+┠<b> ʟᴇᴇᴄʜ ᴛʏᴘᴇ :</b> <i>{LTYPE}</i>
+┠<b> ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ :</b> <i>{THUMB}</i>
+┠<b> ʟᴇᴇᴄʜ sᴘʟɪᴛ sɪᴢᴇ :</b> <code>{SPLIT_SIZE}</code>
+┠<b> ᴇǫᴜᴀʟ sᴘʟɪᴛs :</b> <i>{EQUAL_SPLIT}</i>
+┠<b> ᴍᴇᴅɪᴀ ɢʀᴏᴜᴘ :</b> <i>{MEDIA_GROUP}</i>
+┠<b> ʟᴇᴇᴄʜ ᴄᴀᴘᴛɪᴏɴ :</b> <code>{LCAPTION}</code>
+┠<b> ʟᴇᴇᴄʜ ᴘʀᴇғɪx :</b> <code>{LPREFIX}</code>
+┠<b> ʟᴇᴇᴄʜ sᴜғғɪx :</b> <code>{LSUFFIX}</code>
+┠<b> ʟᴇᴇᴄʜ ᴅᴜᴍᴘs :</b> <code>{LDUMP}</code>
+┖<b> ʟᴇᴇᴄʜ ʀᴇᴍɴᴀᴍᴇ :</b> <code>{LREMNAME}</code>'''
