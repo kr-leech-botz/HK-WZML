@@ -6,142 +6,142 @@ class WZMLStyle:
     ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
     ST_BN2_NAME = 'Updates'
     ST_BN2_URL = 'https://t.me/WZML_X'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
-<b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
+    ST_MSG = '''<i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
+<b>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
+    ST_BOTPM = '''<i>ɴᴏᴡ, ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. sᴛᴀʀᴛ ᴜsɪɴɢ ...</i>'''
+    ST_UNAUTH = '''<i>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀ! ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ᴡᴢᴍʟ-x ᴍɪʀʀᴏʀ-ʟᴇᴇᴄʜ ʙᴏᴛ</i>'''
     # ---------------------
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
-┖ <b>Bot Uptime :</b> {bot_uptime}
+    BOT_STATS = '''⌬ <b><i>ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
+┖ <b>ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :</b> {bot_uptime}
 
-┎ <b><i>RAM ( MEMORY ) :</i></b>
+┎ <b><i>ʀᴀᴍ ( ᴍᴇᴍᴏʀʏ ) :</i></b>
 ┃ {ram_bar} {ram}%
 ┖ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
 
-┎ <b><i>SWAP MEMORY :</i></b>
+┎ <b><i>sᴡᴀᴘ ᴍᴇᴍᴏʀʏ :</i></b>
 ┃ {swap_bar} {swap}%
 ┖ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
 
-┎ <b><i>DISK :</i></b>
+┎ <b><i>ᴅɪsᴋ :</i></b>
 ┃ {disk_bar} {disk}%
-┃ <b>Total Disk Read :</b> {disk_read}
-┃ <b>Total Disk Write :</b> {disk_write}
+┃ <b>ᴛᴏᴛᴀʟ ᴅɪsᴋ ʀᴇᴀᴅ :</b> {disk_read}
+┃ <b>ᴛᴏᴛᴀʟ ᴅɪsᴋ ᴡʀɪᴛᴇ :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
-    SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
-┠ <b>OS Uptime :</b> {os_uptime}
-┠ <b>OS Version :</b> {os_version}
-┖ <b>OS Arch :</b> {os_arch}
+    SYS_STATS = '''⌬ <b><i>ᴏs sʏsᴛᴇᴍ :</i></b>
+┠ <b>ᴏs ᴜᴘᴛɪᴍᴇ :</b> {os_uptime}
+┠ <b>ᴏs ᴠᴇʀsɪᴏɴ :</b> {os_version}
+┖ <b>ᴏs ᴀʀᴄʜ :</b> {os_arch}
 
-⌬ <b><i>NETWORK STATS :</i></b>
-┠ <b>Upload Data:</b> {up_data}
-┠ <b>Download Data:</b> {dl_data}
-┠ <b>Pkts Sent:</b> {pkt_sent}k
-┠ <b>Pkts Received:</b> {pkt_recv}k
-┖ <b>Total I/O Data:</b> {tl_data}
+⌬ <b><i>ɴᴇᴛᴡᴏʀᴋ sᴛᴀᴛs :</i></b>
+┠ <b>ᴜᴘʟᴏᴀᴅ ᴅᴀᴛᴀ:</b> {up_data}
+┠ <b>ᴅᴏᴡɴʟᴏᴀᴅ ᴅᴀᴛᴀ:</b> {dl_data}
+┠ <b>ᴘᴋᴛs sᴇɴᴛ:</b> {pkt_sent}k
+┠ <b>ᴘᴋᴛs ʀᴇᴄᴇɪᴠᴇᴅ:</b> {pkt_recv}k
+┖ <b>ᴛᴏᴛᴀʟ ɪ/ᴏ ᴅᴀᴛᴀ:</b> {tl_data}
 
-┎ <b>CPU :</b>
+┎ <b>ᴄᴘᴜ :</b>
 ┃ {cpu_bar} {cpu}%
-┠ <b>CPU Frequency :</b> {cpu_freq}
-┠ <b>System Avg Load :</b> {sys_load}
-┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-┠ <b>Total Core(s) :</b> {total_core}
-┖ <b>Usable CPU(s) :</b> {cpu_use}
+┠ <b>ᴄᴘᴜ ғʀᴇǫᴜᴇɴᴄʏ :</b> {cpu_freq}
+┠ <b>sʏsᴛᴇᴍ ᴀᴠɢ ʟᴏᴀᴅ :</b> {sys_load}
+┠ <b>ᴘ-ᴄᴏʀᴇ(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
+┠ <b>ᴛᴏᴛᴀʟ ᴄᴏʀᴇ(s) :</b> {total_core}
+┖ <b>ᴜsᴀʙʟᴇ ᴄᴘᴜ(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
-┠ <b>Bot Updated :</b> {last_commit}
-┠ <b>Current Version :</b> {bot_version}
-┠ <b>Latest Version :</b> {lat_version}
-┖ <b>Last ChangeLog :</b> {commit_details}
+    REPO_STATS = '''⌬ <b><i>ʀᴇᴘᴏ sᴛᴀᴛɪsᴛɪᴄs :</i></b>
+┠ <b>ʙᴏᴛ ᴜᴘᴅᴀᴛᴇᴅ :</b> {last_commit}
+┠ <b>ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ :</b> {bot_version}
+┠ <b>ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ :</b> {lat_version}
+┖ <b>ʟᴀsᴛ ᴄʜᴀɴɢᴇʟᴏɢ :</b> {commit_details}
 
-⌬ <b>REMARKS :</b> <code>{remarks}</code>
+⌬ <b>ʀᴇᴍᴀʀᴋs :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
-┠ <b>Direct Limit :</b> {DL} GB
-┠ <b>Torrent Limit :</b> {TL} GB
-┠ <b>GDrive Limit :</b> {GL} GB
-┠ <b>YT-DLP Limit :</b> {YL} GB
-┠ <b>Playlist Limit :</b> {PL}
-┠ <b>Mega Limit :</b> {ML} GB
-┠ <b>Clone Limit :</b> {CL} GB
-┖ <b>Leech Limit :</b> {LL} GB
+    BOT_LIMITS = '''⌬ <b><i>ʙᴏᴛ ʟɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
+┠ <b>ᴅɪʀᴇᴄᴛ ʟɪᴍɪᴛ :</b> {DL} GB
+┠ <b>ᴛᴏʀʀᴇɴᴛ ʟɪᴍɪᴛ :</b> {TL} GB
+┠ <b>ɢᴅʀɪᴠᴇ ʟɪᴍɪᴛ :</b> {GL} GB
+┠ <b>ʏᴛ-ᴅʟᴘ ʟɪᴍɪᴛ :</b> {YL} GB
+┠ <b>ᴘʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ :</b> {PL}
+┠ <b>ᴍᴇɢᴀ ʟɪᴍɪᴛ :</b> {ML} GB
+┠ <b>ᴄʟᴏɴᴇ ʟɪᴍɪᴛ :</b> {CL} GB
+┖ <b>ʟᴇᴇᴄʜ ʟɪᴍɪᴛ :</b> {LL} GB
 
-┎ <b>Token Validity :</b> {TV}
-┠ <b>User Time Limit :</b> {UTI} / task
-┠ <b>User Parallel Tasks :</b> {UT}
-┖ <b>Bot Parallel Tasks :</b> {BT}
+┎ <b>ᴛᴏᴋᴇɴ ᴠᴀʟɪᴅɪᴛʏ :</b> {TV}
+┠ <b>ᴜsᴇʀ ᴛɪᴍᴇ ʟɪᴍɪᴛ :</b> {UTI} / task
+┠ <b>ᴜsᴇʀ ᴘᴀʀᴀʟʟᴇʟ ᴛᴀsᴋs :</b> {UT}
+┖ <b>ʙᴏᴛ ᴘᴀʀᴀʟʟᴇʟ ᴛᴀsᴋs :</b> {BT}
     '''
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>Restarting...</i>'
+    RESTARTING = '<i>ʀᴇsᴛᴀʀᴛɪɴɢ...</i>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!</i></b>
-┠ <b>Date:</b> {date}
-┠ <b>Time:</b> {time}
-┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
+    RESTART_SUCCESS = '''⌬ <b><i>ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!</i></b>
+┠ <b>ᴅᴀᴛᴇ:</b> {date}
+┠ <b>ᴛɪᴍᴇ:</b> {time}
+┠ <b>ᴛɪᴍᴇᴢᴏɴᴇ:</b> {timz}
+┖ <b>ᴠᴇʀsɪᴏɴ:</b> {version}'''
+    RESTARTED = '''⌬ <b><i>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ!</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>Starting Ping..</i>'
-    PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
+    PING = '<i>sᴛᴀʀᴛɪɴɢ ᴘɪɴɢ..</i>'
+    PING_VALUE = '<b>ᴘᴏɴɢ</b>\n<code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
-┠ <b>Mode:</b> {Mode}
-┖ <b>By:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>Source:</b>
-┖ <b>Added On:</b> {On}
+    LINKS_START = """<b><i>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ</i></b>
+┠ <b>ᴍᴏᴅᴇ:</b> {Mode}
+┖ <b>ʙʏ:</b> {Tag}\n\n"""
+    LINKS_SOURCE = """➲ <b>sᴏᴜʀᴄᴇ:</b>
+┖ <b>ᴀᴅᴅᴇᴅ ᴏɴ:</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>ᴛᴀsᴋ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>ʟɪɴᴋ:</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
+    L_LOG_START =           "➲ <b><u>ʟᴇᴇᴄʜ sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>ᴜsᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    SIZE =                  '┠ <b>sɪᴢᴇ: </b>{Size}\n'
+    ELAPSE =                '┠ <b>ᴇʟᴀᴘsᴇᴅ: </b>{Time}\n'
+    MODE =                  '┠ <b>ᴍᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
-    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>'
+    L_TOTAL_FILES =         '┠ <b>ᴛᴏᴛᴀʟ ғɪʟᴇs: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b>ᴄᴏʀʀᴜᴘᴛᴇᴅ ғɪʟᴇs: </b>{Corrupt}\n'
+    L_CC =                  '┖ <b>ʙʏ: </b>{Tag}\n\n'
+    PM_BOT_MSG =            '➲ <b><i>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴀʙᴏᴠᴇ</i></b>'
+    L_BOT_MSG =             '➲ <b><i>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
+    L_LL_MSG =              '➲ <b><i>ғɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ. ᴀᴄᴄᴇss ᴠɪᴀ ʟɪɴᴋs...</i></b>'
     
     # ----- MIRROR -------
-    M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
-    RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
+    M_TYPE =                '┠ <b>ᴛʏᴘᴇ: </b>{Mimetype}\n'
+    M_SUBFOLD =             '┠ <b>sᴜʙғᴏʟᴅᴇʀs: </b>{Folder}\n'
+    TOTAL_FILES =           '┠ <b>ғɪʟᴇs: </b>{Files}\n'
+    RCPATH =                '┠ <b>ᴘᴀᴛʜ: </b><code>{RCpath}</code>\n'
+    M_CC =                  '┖ <b>ʙʏ: </b>{Tag}\n\n'
+    M_BOT_MSG =             '➲ <b><i>ʟɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ʙᴏᴛ ᴘᴍ (ᴘʀɪᴠᴀᴛᴇ)</i></b>'
     
     # ----- BUTTONS -------
-    CLOUD_LINK =      '☁️ Cloud Link'
-    SAVE_MSG =        '📨 Save Message'
-    RCLONE_LINK =     '♻️ RClone Link'
-    DDL_LINK =        '📎 {Serv} Link'
-    SOURCE_URL =      '🔐 Source Link'
-    INDEX_LINK_F =    '🗂 Index Link'
-    INDEX_LINK_D =    '⚡ Index Link'
-    VIEW_LINK =       '🌐 View Link'
-    CHECK_PM =        '📥 View in Bot PM'
-    CHECK_LL =        '🖇 View in Links Log'
-    MEDIAINFO_LINK =  '📃 MediaInfo'
+    CLOUD_LINK =      '☁️ ᴄʟᴏᴜᴅ ʟɪɴᴋ'
+    SAVE_MSG =        '📨 sᴀᴠᴇ ᴍᴇssᴀɢᴇ'
+    RCLONE_LINK =     '♻️ ʀᴄʟᴏɴᴇ ʟɪɴᴋ'
+    DDL_LINK =        '📎 {Serv} ʟɪɴᴋ'
+    SOURCE_URL =      '🔐 sᴏᴜʀᴄᴇ ʟɪɴᴋ'
+    INDEX_LINK_F =    '🗂 ɪɴᴅᴇx ʟɪɴᴋ'
+    INDEX_LINK_D =    '⚡ ɪɴᴅᴇx ʟɪɴᴋ'
+    VIEW_LINK =       '🌐 ᴠɪᴇᴡ ʟɪɴᴋ'
+    CHECK_PM =        '📥 ᴠɪᴇᴡ ɪɴ ʙᴏᴛ ᴘᴍ'
+    CHECK_LL =        '🖇 ᴠɪᴇᴡ ɪɴ ʟɪɴᴋs ʟᴏɢ'
+    MEDIAINFO_LINK =  '📃 ᴍᴇᴅɪᴀɪɴғᴏ'
     # ---------------------
 
     # def get_readable_message(): ---> bot_utilis.py
