@@ -2,10 +2,10 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN1_NAME = 'ᴏᴡɴᴇʀ'
+    ST_BN1_URL = 'https://t.me/Mr_Tamil_KiD'
+    ST_BN2_NAME = 'ᴜᴘᴅᴀᴛᴇs' 
+    ST_BN2_URL = 'https://t.me/KR_BOTZ'
     ST_MSG = '''<i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
 <b>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
     ST_BOTPM = '''<i>ɴᴏᴡ, ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. sᴛᴀʀᴛ ᴜsɪɴɢ ...</i>'''
@@ -150,44 +150,44 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
+    PROCESSED =         '\n┠ <b>ᴘʀᴏᴄᴇssᴇᴅ:</b> {Processed}'
+    STATUS =            '\n┠ <b>sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    SPEED =             '\n┠ <b>sᴘᴇᴇᴅ:</b> {Speed}'
+    ELAPSED =                                     ' | <b>ᴇʟᴀᴘsᴇᴅ:</b> {Elapsed}'
+    ENGINE =            '\n┠ <b>ᴇɴɢɪɴᴇ:</b> {Engine}'
+    STA_MODE =          '\n┠ <b>ᴍᴏᴅᴇ:</b> {Mode}'
+    SEEDERS =           '\n┠ <b>sᴇᴇᴅᴇʀs:</b> {Seeders} | '
+    LEECHERS =                                           '<b>ʟᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
-    UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
-    TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_SIZE =      '\n┠ <b>sɪᴢᴇ: </b>{Size}'
+    SEED_SPEED =     '\n┠ <b>sᴘᴇᴇᴅ: </b> {Speed} | '
+    UPLOADED =                                     '<b>ᴜᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
+    RATIO =          '\n┠ <b>ʀᴀᴛɪᴏ: </b> {Ratio} | '
+    TIME =                                         '<b>ᴛɪᴍᴇ: </b> {Time}'
+    SEED_ENGINE =    '\n┠ <b>ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n┠ <b>sɪᴢᴇ: </b>{Size}'
+    NON_ENGINE =     '\n┠ <b>ᴇɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
+    USER =              '\n┠ <b>ᴜsᴇʀ:</b> <code>{User}</code> | '
+    ID =                                                        '<b>ɪᴅ:</b> <code>{Id}</code>'
+    BTSEL =          '\n┠ <b>sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
+    FOOTER = '⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
+    TASKS =  '┠ <b>ᴛᴀsᴋs:</b> {Tasks}\n'
+    BOT_TASKS = '┠ <b>ᴛᴀsᴋs:</b> {Tasks}/{Ttask} | <b>ᴀᴠʟ:</b> {Free}\n'
+    Cpu = '┠ <b>ᴄᴘᴜ:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free} [{free_p}%]'
     Ram = '\n┠ <b>ʀᴀᴍ:</b> {ram}% | '
-    uptime =                     '<b>UPTIME:</b> {uptime}'
+    uptime =                     '<b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}'
     DL = '\n┖ <b>ᴅʟ:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    UL =                        '<b>ᴜʟ:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
